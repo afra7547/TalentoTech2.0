@@ -1,0 +1,19 @@
+OPCIÓN 1: Quick setup- if you´ve done this kind of thing before
+
+https://github.com/afra7547/Prueba.git
+
+OPCIÓN 2: …or create a new repository on the command line
+
+echo "# Prueba" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/afra7547/Prueba.git
+git push -u origin main
+
+OPCIÓN 3:
+
+git remote add origin https://github.com/afra7547/Prueba.git
+git branch -M main
+git push -u origin main
